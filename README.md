@@ -38,8 +38,8 @@ Request takes 45 milliseconds
      
 ## Updating Cache
 When saving data to Redis programmatically one can define the duration in seconds when the copy of data should be 
-considered expired thus discarded automatically. In this application, this time has been set to 3600 seconds (1 minute) meaning if 
-a user makes an API call after 1 minute the data will be re-cached.
+considered expired thus discarded automatically. In this application, this time has been set to 3600 seconds (1 hour) meaning if 
+a user makes an API call after 1 hour the data will be re-cached.
 
 ## License
 ```
