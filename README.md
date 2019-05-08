@@ -20,19 +20,24 @@ $ node server.js
 Using Postman, visit http://localhost:3000/photos. The first request will take longer time, as data is being pulled from 
 a remote Server. See below the comparison of the Remote and Redis requests:
 
-Remote Request:
+### Remote Request:
+
+Request takes 345 milliseconds.
 
 <img src="./screenshots/api.png"
      alt="remote api request"
      style="float: left; max-width: 75%" />
 
 
-Redist Request:
+### Redist Request:
 
+Request takes 45 milliseconds
 <img src="./screenshots/redis.png"
      alt="redis api request"
      style="float: left; max-width: 75%" />
-
+     
+## Next steps
+* Updating Redis caching with the latest copy of data.
 
 ## License
 ```
