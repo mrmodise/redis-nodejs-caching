@@ -1,7 +1,7 @@
 # Redis Nodejs Caching
 This is a demo project to illustrate caching API calls in NodeJS (Express) using Redis in-memory data store. In its simplest 
-form, an API calls is made to a remote API ``/photos`` to retrieve a list of photos. For each request, Express server queries 
-Redis for any cached request using a unique key. If the key exists Express loads the photos from Redis.
+form, an API call is made to an API endpoint ``/photos`` to retrieve a list of photos. For each request, Express server queries 
+Redis for any cached request using a unique key. If the key exists Express loads the photos from Redis otherwise fetches the results from a remote Server.
 
 ## Prerequisites
 Install the following to get started:
