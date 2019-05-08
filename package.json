@@ -1,0 +1,25 @@
+{
+  "name": "redis-nodejs-caching",
+  "version": "1.0.0",
+  "description": "A demo project to illustrate caching in NodeJS (Express) using Redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrmodise/redis-nodejs-caching.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrmodise/redis-nodejs-caching/issues"
+  },
+  "homepage": "https://github.com/mrmodise/redis-nodejs-caching#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "node-fetch": "^2.5.0",
+    "redis": "^2.8.0"
+  }
+}
