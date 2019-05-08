@@ -29,7 +29,7 @@ Request takes 345 milliseconds.
      style="float: left; max-width: 75%" />
 
 
-### Redist Request:
+### Redis Request:
 
 Request takes 45 milliseconds
 <img src="./screenshots/redis.png"
