@@ -24,14 +24,14 @@ Remote Request:
 
 <img src="./screenshots/api.png"
      alt="remote api request"
-     style="float: left; margin-right: 10px;" />
+     style="float: left; max-width: 75%" />
 
 
 Redist Request:
 
 <img src="./screenshots/redis.png"
      alt="redis api request"
-     style="float: left; margin-right: 10px;" />
+     style="float: left; max-width: 75%" />
 
 
 ## License
